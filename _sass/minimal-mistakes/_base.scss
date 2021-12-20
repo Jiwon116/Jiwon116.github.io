@@ -21,6 +21,10 @@ body {
   }
 }
 
+.list__item > article > h2 {
+  margin: 1em 0 0.5em;
+}
+
 h1,
 h2,
 h3,
@@ -126,13 +130,15 @@ blockquote {
 /* links */
 
 a {
+  text-decoration: none; // 하이퍼링크 줄 없애기
+
   &:focus {
     @extend %tab-focus;
   }
 
-  &:visited {
+  /* &:visited {
     color: $link-color-visited;
-  }
+  } */
 
   &:hover {
     color: $link-color-hover;
