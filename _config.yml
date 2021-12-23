@@ -104,7 +104,7 @@ analytics:
 author:
   name             : "Choi Jiwon"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "초보 개발자의 공부 블로그입니다😊"
+  bio              : "개인 공부 블로그입니다😊"
   location         : 
   email            :
   links:
