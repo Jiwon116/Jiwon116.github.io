@@ -55,7 +55,7 @@ $(document).ready(function() {
 
   // Smooth scrolling
   var scroll = new SmoothScroll('a[href*="#"]', {
-    offset: 10, // 20
+    offset: 20,
     speed: 400,
     speedAsDuration: true,
     durationMax: 500
