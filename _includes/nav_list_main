@@ -18,23 +18,23 @@
                 <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
                 <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
                 {% for category in site.categories %}
-                    {% if category[0] == "algorithm-BOJ" %}
-                        <li><a href="/categories/algorithm-BOJ" class="">BOJ 문제풀이 ({{category[1].size}})</a></li>
+                    {% if category[0] == "BOJ" %}
+                        <li><a href="/categories/BOJ" class="">BOJ 문제풀이 ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "algorithm-CONCEPT" %}
-                        <li><a href="/categories/algorithm-CONCEPT" class="">Algorithm 개념 (C++) ({{category[1].size}})</a></li>
+                    {% if category[0] == "algorithm-concept" %}
+                        <li><a href="/categories/algorithm-concept" class="">알고리즘 개념 (C++) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
         <span class="nav__sub-title">Android</span>
             <ul>
                 {% for category in site.categories %}
-                    {% if category[0] == "android-CONCEPT" %}
-                        <li><a href="/categories/android-CONCEPT" class="">Anroid 개념 (Kotlin) ({{category[1].size}})</a></li>
+                    {% if category[0] == "android-concept" %}
+                        <li><a href="/categories/android-concept" class="">안드로이드 개념 (Kotlin) ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
